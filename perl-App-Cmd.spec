@@ -13,7 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/App/%{upstream_name}-%{upstrea
 
 BuildRequires: perl(Getopt::Long::Descriptive)
 BuildRequires: perl(IO::TieCombine)
-BuildRequires: perl(Sub:::Exporter)
+BuildRequires: perl(Sub::Exporter)
 BuildRequires: perl(Sub::Install)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
