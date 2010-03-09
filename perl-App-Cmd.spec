@@ -14,8 +14,10 @@ Source0:    http://www.cpan.org/modules/by-module/App/%{upstream_name}-%{upstrea
 BuildRequires: perl(Getopt::Long::Descriptive)
 BuildRequires: perl(IO::Scalar)
 BuildRequires: perl(IO::TieCombine)
+BuildRequires: perl(String::RewritePrefix)
 BuildRequires: perl(Sub::Exporter)
 BuildRequires: perl(Sub::Install)
+
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -34,7 +36,7 @@ For information on how to start using App::Cmd, see App::Cmd::Tutorial.
 %make
 
 %check
-make test
+%make test
 
 %install
 rm -rf %buildroot
@@ -48,5 +50,3 @@ rm -rf %buildroot
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
