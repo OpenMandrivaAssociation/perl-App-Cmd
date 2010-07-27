@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    "app cmd --subcmd" style subdispatching
 License:    GPL+ or Artistic
@@ -20,6 +20,8 @@ BuildRequires: perl(Sub::Install)
 
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
+
+Requires: perl(IO::TieCombine)
 
 %description
 App::Cmd is intended to make it easy to write complex command-line
@@ -47,6 +49,6 @@ rm -rf %buildroot
 
 %files
 %defattr(-,root,root)
-%doc Changes LICENSE README
+%doc Changes LICENSE README META.yml
 %{_mandir}/man3/*
 %perl_vendorlib/*
