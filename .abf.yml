@@ -1,2 +1,4 @@
+removed_sources:
+  App-Cmd-0.311.tar.gz: c7932e1d5799de7d481be8c087a555a1f2ee6603
 sources:
-  "App-Cmd-0.311.tar.gz": c7932e1d5799de7d481be8c087a555a1f2ee6603
+  App-Cmd-0.319.tar.gz: dd0cb3ad1bb7447c5b6463c3eacd4f0f5923ce50

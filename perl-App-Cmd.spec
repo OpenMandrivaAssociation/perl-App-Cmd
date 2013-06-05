@@ -2,14 +2,14 @@
 %define upstream_version 0.311
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.319
+Release:	1
 
 Summary:	"app cmd --subcmd" style subdispatching
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/App/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/App/App-Cmd-0.319.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::Load)
@@ -122,4 +122,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri May 29 2009 cpan2dist 0.203-1mdv
 - initial mdv release, generated with cpan2dist
+
 
