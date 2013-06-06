@@ -1,6 +1,5 @@
 %define upstream_name    App-Cmd
-%define upstream_version 0.311
-
+%define upstream_version 0.319
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.319
 Release:	1
