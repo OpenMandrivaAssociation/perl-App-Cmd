@@ -19,6 +19,7 @@ BuildRequires:	perl(String::RewritePrefix)
 BuildRequires:	perl(Sub::Exporter)
 BuildRequires:	perl(Sub::Install)
 BuildRequires:	perl(Test::Fatal)
+BuildRequires:	perl(Capture::Tiny)
 BuildRequires:	perl(Test::More) >= 0.960.0
 
 BuildArch: noarch
