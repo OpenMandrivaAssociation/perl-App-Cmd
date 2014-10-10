@@ -2,7 +2,7 @@
 %define upstream_version 0.319
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.319
-Release:	1
+Release:	2
 
 Summary:	"app cmd --subcmd" style subdispatching
 License:	GPL+ or Artistic
